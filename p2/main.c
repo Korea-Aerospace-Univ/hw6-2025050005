@@ -16,12 +16,12 @@ int main()
         scanf("%d", &b[i]);
     }
     
-    p=a+(n-1);
+    p=a;
     q=b+(n-1);
     
     for (int i=0; i<n; i++){
         printf(" %d", *p + *q);
-        p--;
+        p++;
         q--;
     }
    
